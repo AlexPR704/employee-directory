@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-//Took this function from miniproject in class
-function searchResults(props) {
+
+function SearchResults(props) {
   return (
     <ul className="list-group search-results">
       {props.results.map(result => (
@@ -13,4 +13,4 @@ function searchResults(props) {
   );
 }
 
-export default searchResults;
+export default SearchResults;
