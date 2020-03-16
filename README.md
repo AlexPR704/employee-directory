@@ -2,6 +2,8 @@
 
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
+![screenshot of the code](Images/gif.gif)
+
 ## Description
 
 Created with React, this employee directory is a fast and easy way to display non-confidential information about employees for managers or co-workers. Employees can be searched for by name and the directory can be sorted by alphabetical order so team members can be found more easily.
@@ -23,3 +25,5 @@ JSX
 Bootstrap
 
 ## Deployed Application
+Deployed: 
+Github: https://github.com/AlexPR704/employee-directory;
