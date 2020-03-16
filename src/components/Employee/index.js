@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import Row from "../Row";
-// import Col from "../Col";
 import "./style.css";
 
 function bdate(date) {

@@ -7,6 +7,7 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import SearchForm from "../components/searchForm";
 
+
 function Employees() {
     const [search, setSearch] = useState("");
     const [employees, setEmployees] = useState([]);
