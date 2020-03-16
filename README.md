@@ -25,5 +25,5 @@ JSX
 Bootstrap
 
 ## Deployed Application
-Deployed: 
+Deployed: https://glacial-hollows-34079.herokuapp.com/
 Github: https://github.com/AlexPR704/employee-directory;
