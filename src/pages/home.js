@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import API from "../utils/API";
+import API from "../utils/api";
 import Container from "../components/Container";
 import Alert from "../components/Alert";
 import EmployeeInfo from "../components/Employee";
@@ -48,13 +48,12 @@ function Employees() {
         <div>
             <Container style={{ minHeight: "80%" }}>
                 <h1 className="text-center">Employee Directory</h1>
-                {/* <Alert
+                <Alert
                     type="danger"
                     style={{ opacity: error ? 1 : 0, marginBottom: 10 }}
                 >
                     {error}
-                </Alert> */}
-                    //write javascript for the alert// 
+                </Alert>
                 <Row>
                     <Col />
                     <Col size="sm-4">
