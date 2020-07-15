@@ -24,25 +24,25 @@ function Employees() {
     }, []);
 
     useEffect(() => {
-       
+
         var text = search.toLocaleLowerCase();
         var filtered = employees.filter(function (data) {
             return data.name.first.toLowerCase().includes(text)
         });
         setResults(filtered);
-    
+
 
     }, [search]);
 
     const changeResults = newResults => {
         setResults(newResults)
-      
+
     }
 
     const handleInputChange = event => {
         setSearch(event.target.value);
     };
-    
+
 
     return (
         <div>
@@ -65,7 +65,7 @@ function Employees() {
                     <Col />
                 </Row>
 
-                <EmployeeInfo change ={changeResults} employees={results} />
+                <EmployeeInfo change={changeResults} employees={results} />
             </Container>
         </div>
 
